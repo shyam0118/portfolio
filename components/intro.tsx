@@ -56,7 +56,7 @@ export const Intro = () => {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src={"/profile1.png"}
+              src={"/profile.jpg"}
               alt="profile"
               width={150}
               height={150}
