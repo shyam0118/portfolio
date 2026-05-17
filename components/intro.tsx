@@ -81,7 +81,7 @@ export const Intro = () => {
         </div>
       </div>
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-gray-700 md:text-black"
+        className="mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-4xl text-gray-700 md:text-black"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -101,7 +101,7 @@ export const Intro = () => {
         {`with`} <span className="font-bold">{`3 years`}</span>
         {` of experience. I enjoy
         building smooth and scalable `}
-        <span className="italic">{`sites, apps and sometime games also.`}</span>.
+        <span className="italic">{`sites, apps and sometime games also`}</span>.
         {/* {`. My focus is`} <span className="underline">{`React (Next.js)`}</span>. */}
       </motion.h1>
 
