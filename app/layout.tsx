@@ -8,6 +8,7 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import { Toaster } from "react-hot-toast";
 import { InspWrapper } from "@/components/InspectLet/InspectLetWrapper";
+import CustomCursor from "@/components/fluidCursor";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,6 +52,7 @@ export default function RootLayout({
             <Footer />
             <Toaster position="top-right" />
             <InspWrapper />
+            <CustomCursor />
             {/* <ThemeSwitch /> */}
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
