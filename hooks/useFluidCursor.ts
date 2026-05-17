@@ -1,5 +1,5 @@
 // @ts-nocheck
-const useFluidCursor = () => {
+const initFluidCursor = () => {
     const canvas = document.getElementById('fluid');
     resizeCanvas();
   
@@ -1328,4 +1328,4 @@ const useFluidCursor = () => {
     }
   };
   
-  export default useFluidCursor;
+  export default initFluidCursor;
