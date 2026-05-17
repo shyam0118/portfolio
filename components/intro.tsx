@@ -62,7 +62,7 @@ export const Intro = () => {
               height={150}
               quality={95}
               priority={true}
-              className="rounded-full border-4 h-30 w-30 border-white object-cover shadow-2xl"
+              className="rounded-full border-4 h-[150px] w-[150px] border-white object-cover shadow-2xl"
             />
           </motion.div>
           <motion.span
@@ -98,10 +98,10 @@ export const Intro = () => {
         >
           {titles[index]}
         </motion.span>{" "} */}
-        {`with`} <span className="font-bold">{`around 2 years`}</span>
+        {`with`} <span className="font-bold">{`3 years`}</span>
         {` of experience. I enjoy
-        building `}
-        <span className="italic">{`sites & apps`}</span>.
+        building smooth and scalable `}
+        <span className="italic">{`sites, apps and sometime games also.`}</span>.
         {/* {`. My focus is`} <span className="underline">{`React (Next.js)`}</span>. */}
       </motion.h1>
 
